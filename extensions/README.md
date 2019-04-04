@@ -34,5 +34,8 @@ If your block depends on another block, place them all in extensions folder:
 
 ## Develop new blocks
 
-Coming when [#11640](https://github.com/Automattic/jetpack/pull/11640) lands.
+Jetpack blocks use a different build process to the other Javascript in Jetpack:
 
+To build blocks run `yarn build-extensions`. To watch the build add the --watch suffix: `yarn build-extensions --watch`.
+
+These blocks are built using the [calypso-build](https://github.com/Automattic/wp-calypso/tree/master/packages/calypso-build) tool.
