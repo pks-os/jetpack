@@ -34,11 +34,13 @@ Calypso loads Gutenberg from simple sites’ wp-admin in an iframe.
 Explain beta blocks process here
 
 ## How do I merge blocks to Jetpack
-- Needs a crew review
+- All Jetpack patches need a review from the Jetpack Crew team
+- [Jetpack is released onece a month](https://fieldguide.automattic.com/jetpack-education-curriculum/how-do-i-ship-something-in-jetpack/)
 - TODO
 
 ## How do I deploy to wpcom?
 - merge to Jetpack master first
+- sync the blocks using [Fusion](https://fieldguide.automattic.com/jetpack-fusion/)
 - TODO
 
 ## Can I use Jurassic Ninja to test blocks?
